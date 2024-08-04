@@ -1,7 +1,30 @@
 .container {
-  width: 1300px;
+  width: 90%;
   padding: 0px 12px;
   margin: 0px auto;
 }
 .btn {
+  display: inline-block;
+}
+.btn-sm {
+  padding: 12px 20px;
+}
+.btn-lg {
+  padding: 20px 32px;
+}
+.btn-filled {
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+.btn-outline {
+  border: 1px solid #fff;
+  color: white;
+  background: transparent;
+  border-radius: 5px;
+}
+@media screen and (max-width: 970px) {
+  .container {
+    width: 90%;
+  }
 }
